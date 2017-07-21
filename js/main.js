@@ -3,7 +3,8 @@ $(document).ready(function(){
 	var startchange = $('nav');
 	var offset = startchange.offset();
 	$('.slider').slider({
-    height: 600
+    height: 600,
+    indicators: false
     });
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();

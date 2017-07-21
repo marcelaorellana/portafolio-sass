@@ -6772,20 +6772,65 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
+* {
+  font-family: "Roboto", sans-serif; }
+
 nav {
   z-index: 2222;
-  background-color: transparent; }
+  background-color: transparent;
+  box-shadow: none; }
+
+h5 {
+  font-family: "PT Serif", serif; }
 
 .navbar-fixed {
   position: absolute; }
 
-.slider .slides {
-  height: 80vh; }
-
-#slid {
-  height: 80vh; }
-
 .waves-effect.waves-light.btn, .waves-effect.waves-light.btn-large {
   background-color: #E91E63; }
+
+.slider {
+  z-index: -111; }
+
+.contenedor {
+  margin: -50px 20px 5px 20px;
+  z-index: 1111111;
+  background-color: white;
+  border-radius: 10px; }
+  .contenedor .parrafo {
+    text-align: center;
+    color: #969696;
+    padding: 20px;
+    font-size: 16px; }
+  .contenedor .trio {
+    text-align: center; }
+    .contenedor .trio i {
+      font-size: 60px; }
+    .contenedor .trio i.module {
+      color: #E91E63; }
+    .contenedor .trio i.list {
+      color: #00BCD4; }
+    .contenedor .trio i.headlike {
+      color: #4CAF50; }
+    .contenedor .trio p {
+      color: #969696; }
+    .contenedor .trio h6 {
+      font-family: "PT Serif", serif;
+      font-weight: bold; }
+  .contenedor .who {
+    background-image: url("../img/img_city.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 30px; }
+    .contenedor .who h1 {
+      font-family: "PT Serif", serif; }
+    .contenedor .who img {
+      width: 100%;
+      height: auto; }
+  .contenedor .video {
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
