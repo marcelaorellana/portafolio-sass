@@ -1,6 +1,10 @@
 *{
 	font-family: $body_font;
 }
+img{
+	width: 100%;
+	height: auto;
+}
 nav{
 	z-index: 2222;
 	background-color: transparent;
@@ -74,8 +78,81 @@ h5{
 	.productos{
 		background-color: #F0F0F0;
 		padding: 30px 10px;
+		text-align: center;
+		p{
+			@include parraf();
+		}
+		h1{
+			font-family: $body_serif;
+		}
+		h6{
+			color: $color_rosado;
+		}
+		h5{
+			font-size: 22px;
+		}
 	}
 	.fashion{
 		@include fashion();
+		.precio{
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+	.portafolio{
+		text-align: center;
+		p{
+			@include parraf();
+		}
+		h1{
+			font-family: $body_serif;
+		}
+		.row1{
+			padding: 10px;
+			border-radius: $radio;
+			position: relative;
+			img{
+				width: 100%;
+				height: auto;
+				border-radius: $radio;
+			}
+			.hover{
+				position: absolute;
+				top: 20px;
+				left: 20px;
+			}
+			
+		}
+	}
+	.team{
+
+	}
+	.plans{
+		background-color: #F0F0F0;
+		.dolar{
+			font-size: 50px;
+		}
+		sup { 
+			vertical-align: top; 
+			font-size: 30px; 
+		}
+		sub { 
+			font-size: 30px; 
+			padding-bottom: 5px;
+		}
+	}
+	.clients{
+		text-align: center;
+	}
+	.subscribe{
+		background-image: url("../img/about.jpg");
+		background-size: cover;
+		text-align: center;
+		.sub{
+			background-color: white;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
 	}
 }
