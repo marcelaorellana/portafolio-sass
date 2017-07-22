@@ -67,4 +67,15 @@ h5{
 	.video{
 		text-align: center;
 	}
+	iframe{
+		border: 1px solid white;
+		margin-top: 20px;
+	}
+	.productos{
+		background-color: #F0F0F0;
+		padding: 30px 10px;
+	}
+	.fashion{
+		@include fashion();
+	}
 }
