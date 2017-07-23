@@ -215,8 +215,29 @@ h5{
 	}
 	.clients{
 		text-align: center;
+		padding: 10px 30px;
+		.titulo{
+			h1{
+				font-family: $body_serif;
+			}
+			p{
+				@include parraf();
+			}
+		}
+		img{
+			width: 40%;
+		}
 	}
 	.subscribe{
+		h4{
+			font-family: $body_serif;
+			color: white;
+			font-weight: bold;
+		}
+		p{
+			color: white;
+			font-size: 20px;
+		}
 		background-image: url("../img/about.jpg");
 		background-size: cover;
 		background-position: top;
@@ -227,21 +248,113 @@ h5{
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			padding: 20px 30px;
+			border-radius: $radio;
+		}
+	}
+	.blog{
+		.titulo{
+			h1{
+				font-family: $body_serif;
+				text-align: center;
+			}
+			p{
+				@include parraf();
+			}
+		}
+		.apariencia{
+			padding: 25px;
+			h6{
+				color: #448aff;
+			}
+			img{
+				border-radius: $radio;
+			}
 		}
 	}
 	.getInTouch{
 		background-image: url("../img/img_city.jpg");
 		background-size: cover;
+		color: white;
+		h2{
+			font-family: $body_serif;
+			font-weight: bold;
+		}
+		.titulo{
+			padding: 10px 40px 10px 20px;
+		}
+		.contact{
+			background-color: white;
+			color: gray;
+			border-radius: $radio;
+			padding: 20px;
+			margin: 30px 20px;
+			h5{
+				width: 80%;
+				margin: auto;
+				background-color: $color_rosado;
+				border-radius: $radio;
+				color: white;
+				text-align: center;
+				padding: 20px;
+				margin-top: -30px;
+				font-weight: bold;
+			}
+			.name{
+				display: flex;
+				flex-direction: row;
+				width: 95%;
+				input{
+					margin: 20px 10px;
+				}
+			}
+			.subj{
+				width: 90%;
+				margin: 20px 20px;
+			}
+			textarea{
+				height: 130px;
+			}
+		}
 	}
 	footer{
 		background-color: #323437;
 		color: white;
 		margin-top: -20px;
+		h5{
+			font-weight: bold;
+		}
+		.text{
+			padding: 30px;
+		}
+		.twit{
+			display: flex;
+			flex-direction: row;
+			p{
+				color: white;
+			}
+			p.parraf{
+				color: lightgray;
+				padding: 0 10px;
+				font-size: 12px;
+			}
+		}
+		img{
+			border-radius: $radio;
+		}
+		.footer-row{
+			border-bottom: 1px solid lightgray;
+		}
 		.fin{
+			padding: 30px 20px;
 			display: flex;
 			justify-content: space-between;
+			a{
+				color: white;
+			}
 			p{
 				margin: 0;
+				color: white;
 
 			}
 		}

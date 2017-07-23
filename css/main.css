@@ -6959,29 +6959,116 @@ h5 {
       font-size: 30px;
       padding-bottom: 5px; }
   .contenedor .clients {
-    text-align: center; }
+    text-align: center;
+    padding: 10px 30px; }
+    .contenedor .clients .titulo h1 {
+      font-family: "PT Serif", serif; }
+    .contenedor .clients .titulo p {
+      text-align: center;
+      color: #969696;
+      padding: 20px;
+      font-size: 16px; }
+    .contenedor .clients img {
+      width: 40%; }
   .contenedor .subscribe {
     background-image: url("../img/about.jpg");
     background-size: cover;
     background-position: top;
     text-align: center;
     height: 50vh; }
+    .contenedor .subscribe h4 {
+      font-family: "PT Serif", serif;
+      color: white;
+      font-weight: bold; }
+    .contenedor .subscribe p {
+      color: white;
+      font-size: 20px; }
     .contenedor .subscribe .sub {
       background-color: white;
       display: flex;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      padding: 20px 30px;
+      border-radius: 10px; }
+  .contenedor .blog .titulo h1 {
+    font-family: "PT Serif", serif;
+    text-align: center; }
+  .contenedor .blog .titulo p {
+    text-align: center;
+    color: #969696;
+    padding: 20px;
+    font-size: 16px; }
+  .contenedor .blog .apariencia {
+    padding: 25px; }
+    .contenedor .blog .apariencia h6 {
+      color: #448aff; }
+    .contenedor .blog .apariencia img {
+      border-radius: 10px; }
   .contenedor .getInTouch {
     background-image: url("../img/img_city.jpg");
-    background-size: cover; }
+    background-size: cover;
+    color: white; }
+    .contenedor .getInTouch h2 {
+      font-family: "PT Serif", serif;
+      font-weight: bold; }
+    .contenedor .getInTouch .titulo {
+      padding: 10px 40px 10px 20px; }
+    .contenedor .getInTouch .contact {
+      background-color: white;
+      color: gray;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 30px 20px; }
+      .contenedor .getInTouch .contact h5 {
+        width: 80%;
+        margin: auto;
+        background-color: #E91E63;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: -30px;
+        font-weight: bold; }
+      .contenedor .getInTouch .contact .name {
+        display: flex;
+        flex-direction: row;
+        width: 95%; }
+        .contenedor .getInTouch .contact .name input {
+          margin: 20px 10px; }
+      .contenedor .getInTouch .contact .subj {
+        width: 90%;
+        margin: 20px 20px; }
+      .contenedor .getInTouch .contact textarea {
+        height: 130px; }
   .contenedor footer {
     background-color: #323437;
     color: white;
     margin-top: -20px; }
+    .contenedor footer h5 {
+      font-weight: bold; }
+    .contenedor footer .text {
+      padding: 30px; }
+    .contenedor footer .twit {
+      display: flex;
+      flex-direction: row; }
+      .contenedor footer .twit p {
+        color: white; }
+      .contenedor footer .twit p.parraf {
+        color: lightgray;
+        padding: 0 10px;
+        font-size: 12px; }
+    .contenedor footer img {
+      border-radius: 10px; }
+    .contenedor footer .footer-row {
+      border-bottom: 1px solid lightgray; }
     .contenedor footer .fin {
+      padding: 30px 20px;
       display: flex;
       justify-content: space-between; }
+      .contenedor footer .fin a {
+        color: white; }
       .contenedor footer .fin p {
-        margin: 0; }
+        margin: 0;
+        color: white; }
 
 /*# sourceMappingURL=main.css.map */
