@@ -107,28 +107,100 @@ h5{
 		h1{
 			font-family: $body_serif;
 		}
+
 		.row1{
 			padding: 10px;
 			border-radius: $radio;
 			position: relative;
+			box-sizing: border-box;
 			img{
 				width: 100%;
 				height: auto;
 				border-radius: $radio;
 			}
-			.hover{
+			.hoverr{
 				position: absolute;
-				top: 20px;
-				left: 20px;
+				/*top: 12px;
+				left: 12px;
+				width: 95%;
+				height: 92%;*/
+				top:5px;
+				left: 5px;
+				width: 97%;
+				margin: auto;
+				height: 95%;
+				box-sizing: border-box;
+				padding: 30px;
+				opacity: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: white;
+				display: flex;
+				flex-direction: column;
+				.chip{
+					color: white;
+					background-color: #448aff;
+				}
 			}
-			
+			.hoverr:hover{
+				opacity: 1;
+				background-color: rgba(0, 0, 0, .5);
+				border-radius: $radio;
+			}
 		}
 	}
 	.team{
-
+		.titulo{
+			h1{
+				font-family: $body_serif;
+				text-align: center;
+			}
+			p{
+				@include parraf();
+			}
+		}
+		
+		img{
+			width: 70%;
+			border-radius: 5px;
+		}
+		.perfil{
+			text-align: center;
+		}
+		i{
+			padding: 5px 10px;
+			font-size: 20px;
+		}
+		
 	}
 	.plans{
 		background-color: #F0F0F0;
+		.titulo{
+			padding: 20px 50px;
+			h2{
+				font-family: $body_serif;
+				font-weight: bold;
+			}
+			p{
+				color: $color_grisclaro;
+				padding: 20px;
+				font-size: 16px;
+			}
+		}
+		.tarjeta{
+			background-color: white;
+			text-align: center;
+			padding: 10px;
+			color: gray;
+			margin: 10px 0;
+		}
+		.tarjeta2{
+			text-align: center;
+			padding: 10px 30px;
+			color: gray;
+			margin: 10px 0;
+		}
 		.dolar{
 			font-size: 50px;
 		}
@@ -147,12 +219,31 @@ h5{
 	.subscribe{
 		background-image: url("../img/about.jpg");
 		background-size: cover;
+		background-position: top;
 		text-align: center;
+		height: 50vh;
 		.sub{
 			background-color: white;
 			display: flex;
 			justify-content: center;
 			align-items: center;
+		}
+	}
+	.getInTouch{
+		background-image: url("../img/img_city.jpg");
+		background-size: cover;
+	}
+	footer{
+		background-color: #323437;
+		color: white;
+		margin-top: -20px;
+		.fin{
+			display: flex;
+			justify-content: space-between;
+			p{
+				margin: 0;
+
+			}
 		}
 	}
 }

@@ -6879,17 +6879,77 @@ h5 {
     .contenedor .portafolio .row1 {
       padding: 10px;
       border-radius: 10px;
-      position: relative; }
+      position: relative;
+      box-sizing: border-box; }
       .contenedor .portafolio .row1 img {
         width: 100%;
         height: auto;
         border-radius: 10px; }
-      .contenedor .portafolio .row1 .hover {
+      .contenedor .portafolio .row1 .hoverr {
         position: absolute;
-        top: 20px;
-        left: 20px; }
+        /*top: 12px;
+        left: 12px;
+        width: 95%;
+        height: 92%;*/
+        top: 5px;
+        left: 5px;
+        width: 97%;
+        margin: auto;
+        height: 95%;
+        box-sizing: border-box;
+        padding: 30px;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        display: flex;
+        flex-direction: column; }
+        .contenedor .portafolio .row1 .hoverr .chip {
+          color: white;
+          background-color: #448aff; }
+      .contenedor .portafolio .row1 .hoverr:hover {
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px; }
+  .contenedor .team .titulo h1 {
+    font-family: "PT Serif", serif;
+    text-align: center; }
+  .contenedor .team .titulo p {
+    text-align: center;
+    color: #969696;
+    padding: 20px;
+    font-size: 16px; }
+  .contenedor .team img {
+    width: 70%;
+    border-radius: 5px; }
+  .contenedor .team .perfil {
+    text-align: center; }
+  .contenedor .team i {
+    padding: 5px 10px;
+    font-size: 20px; }
   .contenedor .plans {
     background-color: #F0F0F0; }
+    .contenedor .plans .titulo {
+      padding: 20px 50px; }
+      .contenedor .plans .titulo h2 {
+        font-family: "PT Serif", serif;
+        font-weight: bold; }
+      .contenedor .plans .titulo p {
+        color: #969696;
+        padding: 20px;
+        font-size: 16px; }
+    .contenedor .plans .tarjeta {
+      background-color: white;
+      text-align: center;
+      padding: 10px;
+      color: gray;
+      margin: 10px 0; }
+    .contenedor .plans .tarjeta2 {
+      text-align: center;
+      padding: 10px 30px;
+      color: gray;
+      margin: 10px 0; }
     .contenedor .plans .dolar {
       font-size: 50px; }
     .contenedor .plans sup {
@@ -6903,11 +6963,25 @@ h5 {
   .contenedor .subscribe {
     background-image: url("../img/about.jpg");
     background-size: cover;
-    text-align: center; }
+    background-position: top;
+    text-align: center;
+    height: 50vh; }
     .contenedor .subscribe .sub {
       background-color: white;
       display: flex;
       justify-content: center;
       align-items: center; }
+  .contenedor .getInTouch {
+    background-image: url("../img/img_city.jpg");
+    background-size: cover; }
+  .contenedor footer {
+    background-color: #323437;
+    color: white;
+    margin-top: -20px; }
+    .contenedor footer .fin {
+      display: flex;
+      justify-content: space-between; }
+      .contenedor footer .fin p {
+        margin: 0; }
 
 /*# sourceMappingURL=main.css.map */
